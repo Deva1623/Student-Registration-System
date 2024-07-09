@@ -1,0 +1,26 @@
+
+/*---CSS to add blue square with logo on header-*/
+.header-custom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border: 2px solid black;
+}
+.header-custom .square {
+    width: 60px;
+    height: 60px;
+    background-color: #1E40AF;
+}
+.left-square {
+    margin-right: auto;
+}
+.right-square {
+    margin-left: auto;
+}
+
+/*---A custom Box shaodow for div*/
+.shiny {   
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+
+}
